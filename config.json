@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Katherine King"
+  },
+  "text": {
+    "more": "A multipartite ego-centric graph of former Vice President Aaron Burr around the time of his infamous 1804 duel with long-time political rival Alexander Hamilton. Nodes on the graph represent people or organizations those in the network are affiliated with. Edges indicate a relationship, while the color connotes either a positive (green) or negative (reg) relationship. The color of the nodes represent party affiliation, with blue for Federalists, red for Democratic-Republicans, and white for unknown, unaffiliatied, or not applicable. ",
+    "intro": "A network of former Vice President Aaron Burr before his fated duel with Alexander Hamilton in 1804.",
+    "title": "Aaron Burr\u0027s network (~1804)"
+  },
+  "legend": {
+    "edgeLabel": "relationships",
+    "colorLabel": "party affiliation",
+    "nodeLabel": "people and organizations"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
